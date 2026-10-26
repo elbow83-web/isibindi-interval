@@ -1,1 +1,5 @@
-Isibindi Interval iOS PWA prototype. Upload all files to the root of a GitHub Pages repository. Requires HTTPS for offline service worker. Native Android Spotify Now Playing is not available on iOS web. iOS may suspend timers, voice cues and sound when locked or backgrounded. Test in foreground before coaching. Local library is device-specific; use JSON export/restore. Chaos independently randomizes each regular exercise to 30/35/40/45s and rest fills 60s. CSV columns: Block,Exercise,Work (sec),Rest (sec),Rounds,Type,Block Rest (sec). This is a web recreation, not a native Android-to-iOS conversion.
+Isibindi Interval iOS PWA v1.4.1
+Audio selector: Beeps only (default), Voice + beeps, Silent.
+Upload all files to the ROOT of the existing isibindi-interval GitHub repository and commit. Do not upload to the Training Log repository.
+Existing workouts are preserved in the same browser storage. Spotify mixing is device-dependent; voice may pause Spotify.
+Service worker cache bumped to v1.4.1 with network-first refresh.
