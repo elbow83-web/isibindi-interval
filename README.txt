@@ -1,5 +1,6 @@
-Isibindi Interval iOS PWA v1.4.3
+Isibindi Interval iOS PWA v1.5.0 — Gym Clock
 
-Changes: Rest/Change Exercise and similar transition labels are classified as recovery, not upcoming exercises. NEXT EXERCISE skips these intervals, while their timing remains intact. Random Chaos Mode does not randomise transition intervals. Larger next exercise preview in landscape. Existing saved workouts are preserved.
+Upload all five files to the root of the existing GitHub Pages repository, replacing older versions.
+Gym Clock adds countdown, count-up, unlimited stopwatch, EMOM, AMRAP, Tabata and custom work/rest rounds, preparation countdown, LED-style full-screen iPad clock, and beep/voice settings. Existing CSV workouts, library, Chaos Mode and backups remain.
 
-Upload the extracted files to the root of your existing isibindi-interval GitHub repository. Do not clear Safari site data.
+On iPad, open the PWA and tap Gym Clock on the home screen. Audio requires tapping Start; if audio is silent, fully close and reopen the PWA. Screen wake lock is best-effort.
